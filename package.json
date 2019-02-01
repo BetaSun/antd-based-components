@@ -1,0 +1,37 @@
+{
+  "name": "antd-based-components",
+  "version": "0.0.6",
+  "description": "components based on antd",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babelBuild": "./node_modules/.bin/babel src --out-dir lib --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaSun/antd-based-components.git"
+  },
+  "keywords": [
+    "antd"
+  ],
+  "author": "BetaSun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetaSun/antd-based-components/issues"
+  },
+  "homepage": "https://github.com/BetaSun/antd-based-components#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "peerDependencies": {
+    "antd": "^3.12.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
